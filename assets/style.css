@@ -843,6 +843,7 @@
     margin: 0 3px 10px 3px;
     transition: all 0.3s ease-in-out;
     border-radius: 4px;
+    text-align: justify;
   }
   
   .portfolio #portfolio-flters li:hover,
@@ -914,6 +915,11 @@
   
   .portfolio .portfolio-wrap .portfolio-links a:hover {
     color: var(--dark-green);
+  }
+
+  .portfolio-info .portfolio-links ul{
+    text-align: justify;
+    margin-bottom: 10px;
   }
   
   /*--------------------------------------------------------------
